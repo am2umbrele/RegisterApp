@@ -25,13 +25,6 @@
             "CodeIgniter\\": "system/"
         }
     },
-    "scripts": {
-        "post-update-cmd": [
-            "@composer dump-autoload",
-            "CodeIgniter\\ComposerScripts::postUpdate",
-            "bash admin/setup.sh"
-        ]
-    },
     "support": {
         "forum": "http://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/CodeIgniter4",

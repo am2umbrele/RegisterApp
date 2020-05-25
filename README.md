@@ -23,6 +23,10 @@ Add your database info to **`app\Config\Database.php`**
 'password' => '',
 'database' => '',
 ```
+Run migrations
+```
+php spark migrate
+```
 Add your recaptcha keys to **`app\Config\Recaptcha.php`**
 ```
 public $siteKey = '';

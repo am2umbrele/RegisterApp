@@ -16,7 +16,7 @@ git clone git@github.com:am2umbrele/RegisterApp.git
 ```
 composer install
 ```
-**Add your database info to **`app\Config\Database.php`** **
+**Add your database info to `app\Config\Database.php`** 
 ```
 'hostname' => '',
 'username' => '',
@@ -27,7 +27,7 @@ composer install
 ```
 php spark migrate
 ```
-**Add your recaptcha keys to **`app\Config\Recaptcha.php`** **
+**Add your recaptcha keys to `app\Config\Recaptcha.php`**
 ```
 public $siteKey = '';
 public $secretKey = '';

@@ -7,27 +7,27 @@ PHP 7.2 or greater
 
 ## Setup
 
-Run the following command
+**Run the following command**
 
 ```
 git clone git@github.com:am2umbrele/RegisterApp.git
 ```
-Run
+**Run**
 ```
 composer install
 ```
-Add your database info to **`app\Config\Database.php`**
+**Add your database info to **`app\Config\Database.php`** **
 ```
 'hostname' => '',
 'username' => '',
 'password' => '',
 'database' => '',
 ```
-Run migrations
+**Run migrations**
 ```
 php spark migrate
 ```
-Add your recaptcha keys to **`app\Config\Recaptcha.php`**
+**Add your recaptcha keys to **`app\Config\Recaptcha.php`** **
 ```
 public $siteKey = '';
 public $secretKey = '';
